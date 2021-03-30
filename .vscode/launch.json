@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testhept",
+            "request": "launch",
+            "mainClass": "testhept",
+            "projectName": "OOLT.VN.20202.20184098.letrunghieu_8f2cb7f8"
+        },
+        {
+            "type": "java",
+            "name": "Launch testbai1",
+            "request": "launch",
+            "mainClass": "testbai1",
+            "projectName": "OOLT.VN.20202.20184098.letrunghieu_8f2cb7f8"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
