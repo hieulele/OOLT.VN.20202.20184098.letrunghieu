@@ -1,4 +1,3 @@
-package week1;
 public class ptbachai {
     private double a,b,c,denta;
     public ptbachai(double a, double b,double c) {
