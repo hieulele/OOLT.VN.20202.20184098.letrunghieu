@@ -6,7 +6,7 @@ import java.util.*;
 public class DiskTest {
     public static void main(String[] args) {
         Order order = new Order();
-        DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 11, 77.95f);
+        DigitalVideoDisc dvd11 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 11, 77.95f);
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 22, 88.95f);
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("The Dark Knight", "Action Movie", "Christopher Nolan", 33, 99.95f);
         DigitalVideoDisc dvd4 = new DigitalVideoDisc("Terminator 2: Judgment Day", "Action Movie", "James Cameron", 44, 111.95f);
@@ -18,7 +18,7 @@ public class DiskTest {
         DigitalVideoDisc dvd10 = new DigitalVideoDisc("Dragon", "Action Movie", "Christopher Nolan", 132, 323.95f);
 
         DigitalVideoDisc[] disc = {dvd4, dvd5, dvd6,dvd7,dvd8,dvd9,dvd10};
-        order.addDigitalVideoDisc(dvd1);
+        order.addDigitalVideoDisc(dvd11);
         order.addDigitalVideoDisc(dvd2, dvd3);
         order.addDigitalVideoDisc(disc);
        
