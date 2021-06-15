@@ -1,4 +1,3 @@
-package week1;
 public class hept {
     private int a11,a12,a21,a22,b1,b2;
     private int d,d1,d2;
