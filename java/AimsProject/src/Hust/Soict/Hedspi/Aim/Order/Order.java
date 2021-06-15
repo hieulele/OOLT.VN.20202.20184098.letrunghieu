@@ -7,7 +7,6 @@ public class Order {
 
     public static final int MAX_NUMBERS_ORDERED = 10;
     public static final int MAX_LIMITED_ORDERED = 5;
-    public static Order or[] = new Order[MAX_LIMITED_ORDERED];
     public static int nbOrder = 0;
     int dem = 0;
     int rand = 10;
@@ -92,6 +91,11 @@ public class Order {
             System.out.println("Director: " + itemsOrdered[i].getDirector());
             System.out.println("Length: " + itemsOrdered[i].getLength());
             System.out.println("Cost: " + itemsOrdered[i].getCost());
+            if(rand != 10){
+                if(itemsOrdered[i] == itemsOrdered[rand]){
+                    System.out.println("Được free");
+                }else continue;
+            }
             System.out.println("------------------------------------");
         }
     }
