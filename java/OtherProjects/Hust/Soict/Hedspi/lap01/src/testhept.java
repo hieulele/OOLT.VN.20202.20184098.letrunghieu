@@ -1,4 +1,3 @@
-package week1;
 import java.util.*;
 public class testhept {
     public static void main (String[] args){
